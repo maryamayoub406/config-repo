@@ -1,4 +1,7 @@
-# Common properties for all applications
-logging:
-  level:
-    root: INFO
+spring:
+  profiles:
+    active:default
+
+  demo:
+    message:"Hello from config server"
+    timeout:5000
