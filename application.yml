@@ -1,0 +1,4 @@
+# Common properties for all applications
+logging:
+  level:
+    root: INFO
